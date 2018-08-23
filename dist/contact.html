@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
+      </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="projects.html" class="nav-link">
+            Projects
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            Contact Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact">
+    <h1 class="lg-heading">
+      Contact
+      <span class="text-secondary">Me</span>
+    </h1>
+    <h2 class="sm-heading">
+      This is how you can reach me
+    </h2>
+    <div class="boxes">
+      <div>
+        <span class="text-secondary">Email</span> Preet.S.Singh29@gmail.com
+      </div>
+      <div>
+        <span class="text-secondary">Phone</span> (516)-610-0653
+      </div>
+    </div>
+    <h2 class="sm-heading">
+      Send me a message.
+    </h2>
+    <div class="contact">
+      <form name="contactform" method="post" action="http://preetcodes.com/send_form_email.php/" id='form'>
+          <input type="text" name="first_name" number="50" size="50" placeholder="First Name *">
+          <input type="text" name="last_name" number="50" size="50" placeholder="Last Name *">
+          <input type="text" name="email" number="80" size="50" placeholder="Email Address *">
+          <input type="text" name="telephone" number="30" size="50" placeholder="Phone Number">
+          <textarea name="comments" maxlength="1000" cols="25" rows="6" placeholder="Message *"></textarea>
+          <input id="submit" type="submit" value="Submit">
+        </form>
+      </div>
+  </main>
+
+<fotter id="main-footer">
+  Copyright &copy; Preet Singh
+</fotter>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
